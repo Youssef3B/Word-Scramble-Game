@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="card">
+        <h3>Word Scramble</h3>
+        <div class="line"></div>
+        <h1 id="word">D G E R A N</h1>
+        <p>Hint : <span id="hint">Lorem ipsum dolor sit amet.</span></p>
+        <p>Time Left: <span id="time">30</span>s</p>
+        <input id="input" type="text" placeholder="Enter a valid word">
+        <p id="note"></p>
+        <P>NOTE : YOU NEED TO ENTER A CAPITALIZED WORD.</P>
+        <div class="btns">
+            <button id="Refresh">Refresh Word</button>
+            <button id="Check" onclick="checkword()">Check Word</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
